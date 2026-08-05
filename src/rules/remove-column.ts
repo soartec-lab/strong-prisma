@@ -20,8 +20,6 @@ const suggestion = (statement: ParsedStatement): string => {
    2. Run 'npx prisma generate' and deploy the application
    3. Then apply this migration to drop the column
 
-📚 More info: https://github.com/prisma/prisma/issues/16821
-
 To approve this operation (reviewed and intentional), add above the statement:
    -- prisma-strong-migrations-approve-next-line removeColumn
 
